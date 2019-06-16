@@ -35,6 +35,6 @@ This code will generate a lot of intents. Each parent intent will have 2 followu
 - Parent intent will show 2 Kommunicate payloads, the first one contains info extracted from the second column of excel (info of TR in main complex buildings). The second payload contains one message and two buttons leading to the LHS TR and LHN TR of the same name. Parent intent also has multiple training phrases that are ANNOTATED with PRE-DEFINED ENTITIES NTU_Location (for LHS and LHN). This is for the use of Fulfillment Code 
 - Child intent will have one payload that contains the info extracted from excel as well as a link button to the location. 
 
-_For the fulfillment code, it can be found in agent.js, of which the two main important things are
-_1. the function TR(agent) that controls the routing
-_2. the intentMap that set the mapping of intents - function to the handler
+_For the fulfillment code, it can be found in agent.js, of which the two main important things are_
+_1. the function TR(agent) that controls the routing_
+_2. the intentMap that set the mapping of intents - function to the handler_
