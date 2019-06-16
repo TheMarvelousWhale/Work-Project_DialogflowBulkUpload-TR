@@ -24,8 +24,17 @@ And hit RUN. Hopefully the following will happen:
 1. Shutil lib creates a copy of "Lyona Template" folder
 2. Pandas read the two excel files into its Dataframes for processing
 3. Json read the 4 json into python format
-4. Python goes down the row of the main DF (from TR.xlsx), generate the to-be-json parent and parent_usersays (which makes use of the other excel file to generate different training phrases), then generate the two children in a similar fashion. It does so by taking the relevant info out from Pandas DF using Regex,make a deepcopy of the json, then slot these infos in the correct positions in the json copy. (modularized into the 4 functions written near the top of big.py). 
+4. Python goes down the row of the main DF (from TR.xlsx), generate the to-be-json parent and parent_usersays, then generate the two children in a similar fashion. It does so by taking the relevant info out from Pandas DF using Regex,make a deepcopy of the json, then slot these infos in the correct positions in the json copy. (modularized into the 4 functions written near the top of big.py). 
 5. Export the python thing into json and put the json directly into the "Lyona Template - Copy" folder.
 6. Zip the folder up into file called "New Intents.zip" and delete the folder
 
 7. Now you need to pray that everything works correctly and upload this zip into the Dialogflow agent. 
+
+## EXPECTED OUTPUT
+This code will generate a lot of intents. Each parent intent will have 2 followup intents. For the details:
+- Parent intent will show 2 Kommunicate payloads, the first one contains info extracted from the second column of excel (info of TR in main complex buildings). The second payload contains one message and two buttons leading to the LHS TR and LHN TR of the same name. Parent intent also has multiple training phrases that are ANNOTATED with PRE-DEFINED ENTITIES NTU_Location (for LHS and LHN). This is for the use of Fulfillment Code 
+- Child intent will have one payload that contains the info extracted from excel as well as a link button to the location. 
+
+_For the fulfillment code, it can be found in agent.js, of which the two main important things are
+_1. the function TR(agent) that controls the routing
+_2. the intentMap that set the mapping of intents - function to the handler
