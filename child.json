@@ -1,0 +1,56 @@
+{
+  "parentId": "eaead6cb-271c-46fd-a07d-6535fc8bd5e2",
+  "rootParentId": "eaead6cb-271c-46fd-a07d-6535fc8bd5e2",
+  "name": "Freshmen.Facts.Lifestyle.Location.TR-29 -LHS-TR+29",
+  "auto": true,
+  "contexts": [
+    "FreshmenFactsLifestyleLocationTR-29-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "Do_you_have_any_other_enquiries-followup",
+          "parameters": {},
+          "lifespan": 1
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 4,
+          "lang": "en",
+          "payload": {
+            "message": "LHS-TR+29 is located at BASEMENT 2, THE HIVE",
+            "platform": "kommunicate",
+            "metadata": {
+              "contentType": "300",
+              "templateId": "3",
+              "payload": [
+                {
+                  "type": "link",
+                  "url": "http://maps.ntu.edu.sg/m?q\u003dtutorial%20room%20%2B%2029%20-%20lhs\u0026fs\u003dm",
+                  "name": "Direction to LHS-TR+29"
+                }
+              ]
+            }
+          }
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1508189124811,
+  "fallbackIntent": false,
+  "events": [
+    {
+      "name": "LHSTR29"
+    }
+  ]
+}
