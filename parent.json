@@ -1,0 +1,84 @@
+{
+  "id": "changethisid",
+  "name": "Freshmen.Facts.Lifestyle.Location.TR-29",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "FreshmenFactsLifestyleLocationTR-29-followup",
+          "parameters": {},
+          "lifespan": 2
+        }
+      ],
+      "parameters": [
+        {
+          "id": "8620f3cd-a5a8-4d43-b926-bdd7d1861ad5",
+          "dataType": "@NTU_location",
+          "name": "NTU_location",
+          "value": "$NTU_location",
+          "isList": false
+        },
+        {
+          "id": "fe6615aa-cf3b-4862-898f-be4f514fc279",
+          "dataType": "@sys.number",
+          "name": "number",
+          "value": "$number",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 4,
+          "lang": "en",
+          "payload": {
+            "message": "TR+29 is located at LEVEL 5, USE LIFT (NS2-2),North Spine",
+            "platform": "kommunicate",
+            "metadata": {
+              "contentType": "300",
+              "templateId": "3",
+              "payload": [
+                {
+                  "type": "link",
+                  "url": "http://maps.ntu.edu.sg/m?q\u003dtutorial%20room%20%2B%2029\u0026fs\u003dm",
+                  "name": "Direction to TR+29"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "type": 4,
+          "lang": "en",
+          "payload": {
+            "message": "Alternatively TR 29 can also mean LHS-TR+29 or LHN-TR+29 Click on the respective buttons to know more about the location ",
+            "platform": "kommunicate",
+            "metadata": {
+              "contentType": "300",
+              "templateId": "6",
+              "payload": [
+                {
+                  "title": "LHS-TR+29",
+                  "message": "I would like to know about the location of LHS-TR+29"
+                },
+                {
+                  "title": "LHN-TR+29",
+                  "message": "I would like to know about the location of LHN-TR+29"
+                }
+              ]
+            }
+          }
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

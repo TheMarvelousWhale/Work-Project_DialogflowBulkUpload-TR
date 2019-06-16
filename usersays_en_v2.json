@@ -1,0 +1,180 @@
+[
+  {
+    "data": [
+      {
+        "text": "LHN",
+        "alias": "NTU_location",
+        "meta": "@NTU_location",
+        "userDefined": true
+      },
+      {
+        "text": " TR+00",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1
+  },
+  {
+    "data": [
+      {
+        "text": "LHN",
+        "alias": "NTU_location",
+        "meta": "@NTU_location",
+        "userDefined": true
+      },
+      {
+        "text": " TR00",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1
+  },
+  {
+    "data": [
+      {
+        "text": "LHS",
+        "alias": "NTU_location",
+        "meta": "@NTU_location",
+        "userDefined": true
+      },
+      {
+        "text": " TR00",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1
+  },
+  {
+    "data": [
+      {
+        "text": "LHS",
+        "alias": "NTU_location",
+        "meta": "@NTU_location",
+        "userDefined": true
+      },
+      {
+        "text": " TR+00",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1
+  },
+  {
+    "data": [
+      {
+        "text": "LHS",
+        "alias": "NTU_location",
+        "meta": "@NTU_location",
+        "userDefined": true
+      },
+      {
+        "text": " TR+ 00",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1
+  },
+  {
+    "data": [
+      {
+        "text": "LHN",
+        "alias": "NTU_location",
+        "meta": "@NTU_location",
+        "userDefined": true
+      },
+      {
+        "text": " TR+ 00",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1
+  },
+  {
+    "data": [
+      {
+        "text": "LHN",
+        "alias": "NTU_location",
+        "meta": "@NTU_location",
+        "userDefined": true
+      },
+      {
+        "text": " TR 00",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1
+  },
+  {
+    "data": [
+      {
+        "text": "LHS",
+        "alias": "NTU_location",
+        "meta": "@NTU_location",
+        "userDefined": true
+      },
+      {
+        "text": " TR 00",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1
+  },
+  {
+    "data": [
+      {
+        "text": "Where is TR00",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1
+  },
+  {
+    "data": [
+      {
+        "text": "TR00",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1
+  },
+  {
+    "data": [
+      {
+        "text": "TR+00",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1
+  },
+  {
+    "data": [
+      {
+        "text": "TR 00",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1
+  },
+  {
+    "data": [
+      {
+        "text": "Where is TR 00",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1
+  }
+]
